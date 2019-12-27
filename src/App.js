@@ -1,11 +1,9 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
+import Home from './modules/home';
 
 function App() {
-  return (
-    <div>
-      Context API React
-    </div>
-  );
+	return <Route path="/" component={Home} />;
 }
 
 export default App;
