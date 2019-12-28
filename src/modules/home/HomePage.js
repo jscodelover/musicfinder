@@ -1,7 +1,12 @@
 import React from 'react';
+import { Loading } from '../../components';
 
 function HomePage() {
-	return <div>Home</div>;
+	return (
+		<div>
+			<Loading />
+		</div>
+	);
 }
 
 export default HomePage;
