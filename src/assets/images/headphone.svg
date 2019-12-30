@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="412.961" height="355.63" viewBox="0 0 412.961 355.63">
+  <defs>
+    <linearGradient id="linear-gradient" x1="14.626" y1="-1.912" x2="-10.26" y2="1.563" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#151313"/>
+      <stop offset="0.229" stop-color="#d02f2f"/>
+      <stop offset="0.297" stop-color="#d02f2f"/>
+      <stop offset="0.533" stop-color="#af2c2c"/>
+      <stop offset="0.699" stop-color="#331818"/>
+      <stop offset="1" stop-color="#432525"/>
+    </linearGradient>
+  </defs>
+  <g id="headphone-symbol" transform="translate(0 -22.804)">
+    <g id="Group_3" data-name="Group 3" transform="translate(0 22.804)">
+      <path id="Path_2" data-name="Path 2" d="M62.743,155.437v98.42a10.605,10.605,0,1,0,21.21,0v-98.42a10.605,10.605,0,0,0-21.21,0Z" transform="translate(29.6 91.048)" fill="url(#linear-gradient)"/>
+      <path id="Path_3" data-name="Path 3" d="M42.327,378.434H75.881V206.56a22.326,22.326,0,0,0,.239-2.49c0-74.151,58.47-134.469,130.329-134.469s130.32,60.318,130.32,134.469a22.2,22.2,0,0,0,.328,3.329V378.434h33.559c23.356,0,42.307-20.063,42.307-44.817v-89.63c0-20.413-12.917-37.611-30.551-43.022C380.788,102.457,302.5,22.8,206.456,22.8c-96.075,0-174.37,79.661-175.976,178.2C12.869,206.422,0,223.6,0,244v89.616C0,358.356,18.949,378.434,42.327,378.434Z" transform="translate(0 -22.804)" fill="url(#linear-gradient)"/>
+      <path id="Path_4" data-name="Path 4" d="M203.454,155.437v98.42a10.6,10.6,0,1,0,21.208,0v-98.42a10.6,10.6,0,1,0-21.208,0Z" transform="translate(95.983 91.048)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

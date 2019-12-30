@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151.044" height="88.328" viewBox="0 0 151.044 88.328">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.078" y1="0.126" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e02a2a"/>
+      <stop offset="0.113" stop-color="#d02f2f"/>
+      <stop offset="0.911" stop-color="#605050"/>
+      <stop offset="1" stop-color="#545454"/>
+    </linearGradient>
+    <filter id="Music" x="86.044" y="34.461" width="43" height="31" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Finder" x="107.044" y="34.461" width="44" height="31" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-473.544 -165.961)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-83 -51)">
+      <path id="Path_1" data-name="Path 1" d="M132.563,74.707H97.7L90.319,61.979a4.8,4.8,0,0,0-4.806-2.151,4.346,4.346,0,0,0-3.839,3.31l-3.3,17.669L75.249,97.535,72.818,81.024,67.44,44.507a4.366,4.366,0,0,0-4.158-3.474,4.655,4.655,0,0,0-4.791,2.79L44.755,82.113l-4.126,11.5-2.1-11.261-3.1-16.642a4.363,4.363,0,0,0-3.948-3.324,4.773,4.773,0,0,0-4.791,2.338L19.028,79.679H4.6c-2.538,0-4.6,1.791-4.6,4s2.06,4,4.6,4H22.014a4.67,4.67,0,0,0,4.2-2.372l1.29-2.516,1.313-2.563.464,2.493,5.393,28.914a4.4,4.4,0,0,0,4.214,3.348,4.649,4.649,0,0,0,4.715-2.795L54.521,81.734,61,63.691l2.6,17.692,6.549,44.476a4.419,4.419,0,0,0,4.482,3.49h.079a4.46,4.46,0,0,0,4.539-3.359l8.507-45.546.725-3.877,2.182,3.766.1.172a4.715,4.715,0,0,0,4.108,2.2h37.693c2.539,0,4.6-1.791,4.6-4S135.1,74.707,132.563,74.707Z" transform="translate(556.544 175.941)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, 556.54, 216.96)" filter="url(#Music)">
+        <text id="Music-2" data-name="Music" transform="translate(92.54 49.96)" fill="#d62b2b" font-size="8" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Music</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 556.54, 216.96)" filter="url(#Finder)">
+        <text id="Finder-2" data-name="Finder" transform="translate(113.54 49.96)" fill="#d62b2b" font-size="8" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Finder</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
