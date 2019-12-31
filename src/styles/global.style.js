@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     *,
@@ -31,6 +31,15 @@ const GlobalStyle = createGlobalStyle`
         text-size-adjust: auto;
     }
 
-`
+    .g-btn-transparent{
+        background-color: transparent;
+        border: none;
+        &:focus{
+            outline: none;
+            box-shadow: none;
+        }
+    }
 
-export default GlobalStyle
+`;
+
+export default GlobalStyle;

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Loading } from '../../components';
+import { LandingPage } from '../../components';
 
 function HomePage() {
 	return (
 		<div>
-			<Loading />
+			<LandingPage />
 		</div>
 	);
 }
