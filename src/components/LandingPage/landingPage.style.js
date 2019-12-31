@@ -24,7 +24,7 @@ const Wrapper = styled.div`
 	}
 	.social-media {
 		position: absolute;
-		bottom: 19px;
+		bottom: 14px;
 		right: 33px;
 	}
 `;
@@ -65,7 +65,7 @@ const SocialMedia = styled.div.attrs({
 })`
 	.social_icon {
 		cursor: pointer;
-		&:not(last-of-type) {
+		&:not(:last-of-type) {
 			margin-right: 10px;
 		}
 		img {

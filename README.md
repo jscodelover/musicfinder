@@ -1,12 +1,10 @@
-# LyricFinder App
+# MusicFind App
 
-> App that finds song lyrics using React, Context Api and the Musixmatch API.
+> App that finds song lyrics using React, Context Api and the Spotify API.
 
-## Musixmatch API
+Status - Under Construction 🚧
 
-Get your API key and add to the .ENV file
-
-[https://developer.musixmatch.com](https://developer.musixmatch.com)
+[Website Link](https://musicfinder.netlify.com/)
 
 ## Quick Start
 
@@ -21,8 +19,4 @@ npm start
 npm run build
 ```
 
-## App Info
 
-### Version
-
-1.0.0
