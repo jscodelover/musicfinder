@@ -36,6 +36,25 @@ const Logo = styled.img.attrs({
 	width: 137px;
 `;
 
+const AuthButton = styled.div`
+	position: absolute;
+	right: 33px;
+	top: 28px;
+	.auth-btn {
+		font-size: 16px;
+
+		transition: all 0.4s;
+		&:not(:last-of-type) {
+			padding-right: 20px;
+		}
+	}
+	.active,
+	.auth-btn:hover {
+		color: ${({ theme: { colors } }) => colors.btnTextHover};
+		text-decoration: underline;
+	}
+`;
+
 const HeadPhoneImg = styled.img.attrs({
 	src: hpImg,
 	className: 'hp-image'
@@ -56,4 +75,4 @@ const SocialMedia = styled.div.attrs({
 	}
 `;
 
-export { Wrapper, Logo, HeadPhoneImg, SocialMedia };
+export { Wrapper, AuthButton, Logo, HeadPhoneImg, SocialMedia };

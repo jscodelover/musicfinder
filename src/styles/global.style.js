@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
         line-height: 1.414;
         font-weight: 400;
         font-size: 14px;
-        color: ${({ theme: { colors } }) => colors.black};
+        color: ${({ theme: { colors } }) => colors.textColor};
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-size-adjust: auto;
@@ -37,6 +37,14 @@ const GlobalStyle = createGlobalStyle`
         &:focus{
             outline: none;
             box-shadow: none;
+        }
+    }
+
+    a{
+        color: inherit;
+        text-decoration: none;
+        &:hover{
+            color: inherit;
         }
     }
 
