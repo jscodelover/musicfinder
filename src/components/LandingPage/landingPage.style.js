@@ -15,17 +15,30 @@ const Wrapper = styled.div`
 		position: absolute;
 		top: 16px;
 		left: 33.5px;
+		@media (max-width: 442px) {
+			width: 100px;
+			left: 20px;
+		}
 	}
 	.hp-image {
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
+		@media (max-width: 442px) {
+			width: 80%;
+		}
+		@media (max-height: 535px) {
+			height: 50%;
+		}
 	}
 	.social-media {
 		position: absolute;
 		bottom: 14px;
 		right: 33px;
+		@media (max-width: 442px) {
+			right: 20px;
+		}
 	}
 `;
 
@@ -52,6 +65,9 @@ const AuthButton = styled.div`
 	.auth-btn:hover {
 		color: ${({ theme: { colors } }) => colors.btnTextHover};
 		text-decoration: underline;
+	}
+	@media (max-width: 442px) {
+		right: 20px;
 	}
 `;
 
