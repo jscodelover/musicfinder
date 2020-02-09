@@ -16,7 +16,11 @@ const Wrapper = styled.div`
 		top: 16px;
 		left: 33.5px;
 		@media (max-width: 442px) {
-			width: 100px;
+			width: 86px;
+			left: 20px;
+		}
+		@media (max-height: 535px) {
+			width: 86px;
 			left: 20px;
 		}
 	}
@@ -37,6 +41,9 @@ const Wrapper = styled.div`
 		bottom: 14px;
 		right: 33px;
 		@media (max-width: 442px) {
+			right: 20px;
+		}
+		@media (max-height: 535px) {
 			right: 20px;
 		}
 	}
@@ -67,6 +74,10 @@ const AuthButton = styled.div`
 		text-decoration: underline;
 	}
 	@media (max-width: 442px) {
+		right: 20px;
+	}
+
+	@media (max-height: 535px) {
 		right: 20px;
 	}
 `;
