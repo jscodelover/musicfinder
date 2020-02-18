@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 import hpImg from '../../assets/images/headphone.svg';
-import logoImg from '../../assets/images/logo.svg';
 
 const Wrapper = styled.div`
 	position: relative;
 	padding: 16px 33px 19px;
-	height: 100vh;
+	min-height: 100vh;
 	background-image: linear-gradient(
 		to top right,
 		${({ theme: { colors } }) => colors.layoutColor1},
@@ -47,13 +46,6 @@ const Wrapper = styled.div`
 			right: 20px;
 		}
 	}
-`;
-
-const Logo = styled.img.attrs({
-	src: logoImg,
-	className: 'logo-image'
-})`
-	width: 137px;
 `;
 
 const AuthButton = styled.div`
@@ -102,4 +94,4 @@ const SocialMedia = styled.div.attrs({
 	}
 `;
 
-export { Wrapper, AuthButton, Logo, HeadPhoneImg, SocialMedia };
+export { Wrapper, AuthButton, HeadPhoneImg, SocialMedia };

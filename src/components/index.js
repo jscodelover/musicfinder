@@ -1,4 +1,5 @@
 import Loading from './Loading';
 import LandingPage from './LandingPage';
+import Logo from './Logo';
 
-export { Loading, LandingPage };
+export { Loading, LandingPage, Logo };

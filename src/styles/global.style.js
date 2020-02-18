@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
         line-height: 1.414;
         font-weight: 400;
         font-size: 14px;
-        color: ${({ theme: { colors } }) => colors.textColor};
+        color: ${({ theme: { colors } }) => colors.textColor1};
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-size-adjust: auto;
@@ -34,6 +34,7 @@ const GlobalStyle = createGlobalStyle`
     .g-btn-transparent{
         background-color: transparent;
         border: none;
+        cursor: pointer;
         &:focus{
             outline: none;
             box-shadow: none;

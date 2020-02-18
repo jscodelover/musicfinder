@@ -1,5 +1,8 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Route, Switch, withRouter } from 'react-router-dom';
+import Logo from '../Logo';
+import LoginPage from '../../modules/auth/login/LoginPage';
+import SignupPage from '../../modules/auth/signup/SignupPage';
 import github from '../../assets/images/github.png';
 import linkedin from '../../assets/images/linkedin.png';
 import spotify from '../../assets/images/spotify.png';
@@ -8,24 +11,31 @@ import {
 	Wrapper,
 	HeadPhoneImg,
 	SocialMedia,
-	Logo,
 	AuthButton
 } from './landingPage.style';
 
-function LandingPage() {
+function LandingPage(props) {
+	function goToHome() {
+		props.history.push(props.match.url);
+	}
+	const { match } = props;
 	return (
 		<Wrapper>
-			<Logo />
+			<button className="g-btn-transparent logo-image" onClick={goToHome}>
+				<Logo />
+			</button>
 			<AuthButton>
 				<NavLink
-					to="/"
+					exact
+					to="/login"
 					className="g-btn-transparent auth-btn"
 					activeClassName="active"
 				>
 					Login
 				</NavLink>
 				<NavLink
-					to="/"
+					exact
+					to="/signup"
 					className="g-btn-transparent auth-btn"
 					activeClassName="active"
 				>
@@ -67,8 +77,12 @@ function LandingPage() {
 					<img src={spotify} alt="spotify" />
 				</a>
 			</SocialMedia>
+			<Switch>
+				<Route path={`${match.url}login`} component={LoginPage} />;
+				<Route path={`${match.url}signup`} component={SignupPage} />;
+			</Switch>
 		</Wrapper>
 	);
 }
 
-export default LandingPage;
+export default withRouter(LandingPage);
